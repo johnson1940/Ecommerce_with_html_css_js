@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rostra</title>
+    
+    <!--Google Fonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+
+    <!--CSS-->
+    <link rel="stylesheet" href="style.css">
+
+    <!--Font Awesome-->
+    <link rel="stylesheet" 
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" 
+        integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" 
+        crossorigin="anonymous" 
+        referrerpolicy="no-referrer" />
+</head>
+<body>
+
+
+    <!--NavBar-->
+    <nav class="navBar">
+        <h1>Rostra</h1>
+
+        <div class = "navbar-links">
+            <p class = "navbar-link"><a href="index.html">Home</a></p>
+            <p class = "navbar-link"><a href="collection.html">Collections</a></p>
+            <p class = "navbar-link"><a href="contact.html">Contact</a></p>
+        </div>
+        <div class="navbar-menu-toogle", onclick="showNavBar()">
+            <i class ="fa-solid fa-bars"></i>
+        </div>
+        </nav>
+        <!--Side Navbar-->
+        <div class="side-navbar">
+            <p style="text-align: right;" onclick="hideNavBar()">
+                <i class="fa-solid fa-xmark"></i>
+            </p>
+        <div class="side-navbar-links">
+            <p class = "side-navbar-link"><a href="index.html">Home</a></p>
+            <p class = "side-navbar-link"><a href="collections.html">Collections</a></p>
+            <p class = "side-navbar-link"><a href="contact.html">Contact</a></p>
+        </div>
+        
+    </div>
+
+
+    <!-- Main Content -->
+    <div class="main-content">
+        <!-- Products Section -->
+        <div class="product-section">
+            <form class="product-search">
+                <input type="text" id="search" placeholder="Search">
+                <i class="fa-solid fa-magnifying-glass"></i>
+            </form>
+
+            <div class="products" id="products">
+                <div class="product-box">
+                    <img src="https://img.freepik.com/premium-photo/attractive-young-bearded-guy-20s-classic-black-shirt-posing-isolated-bright-red-wall-background-studio-portrait-people-sincere-emotions-lifestyle-concept-mock-up-copy-space-looking-down_365776-29842.jpg?w=740"
+                     alt="White Shirt"
+                     width="200"
+                     height="200">
+                    <p>White Shirt</p>    
+                </div>
+
+                <div class="product-box">
+                    <img src="https://img.freepik.com/free-photo/portrait-cheerful-man-white-shirt-standing_171337-12073.jpg?t=st=1742018758~exp=1742022358~hmac=2a8921cca9186fc451b425dfe5abd3cdd8f347b9a42e33de78a27336d59bde22&w=740" 
+                    alt="Black Shirt"
+                    width="200"
+                    height="200">
+                    <p>Black Shirt</p>    
+                </div>
+
+                <div class="product-box">
+                    <img src=
+                     "https://img.freepik.com/premium-photo/looking-happy-cheerful-confident-smiling-proudly-looking-side-with-both-hands-hips_1194-83045.jpg?w=740"
+                    alt="Blue Shirt"
+                    width="200"
+                    height="200">
+                    <p>Blue Shirt</p>    
+                </div>
+
+                <div class="product-box">
+                    <img src=
+                    "https://img.freepik.com/free-photo/young-handsome-guy-wearing-pink-polo-shirt-looking-seriously-besides-standing-pink-wall_141793-30956.jpg?t=st=1742018924~exp=1742022524~hmac=df3c9fba7a9505fdab216fe416c762a21daeca40792d380c8c16d0200e77ca54&w=740" 
+                    alt="Red Shirt"
+                    width="200"
+                    height="200"
+                    >
+                    <p>Red Shirt</p>    
+                </div>
+
+                <div class="product-box">
+                    <img src=
+                    "https://img.freepik.com/free-photo/young-confident-man-red-shirt-with-optical-glasses-bites-lip-looks-isolated-orange-wall_141793-35245.jpg?t=st=1742019022~exp=1742022622~hmac=3debedcd80ee362e970a4be9e54ba8e499785cbc7fbe24232dd3e848b83bf22a&w=740"
+                    alt="Red Shirt"
+                    width="200"
+                    height="200"
+                    >
+                    <p>Red Shirt</p>    
+                </div>
+
+                <div class="product-box">
+                    <img src=
+                    "https://img.freepik.com/free-photo/front-view-young-male-courier-green-shirt-green-cap-smiling-pointing-his-finger-yellow-background-job-delivering-service-color_140725-21611.jpg?t=st=1742019667~exp=1742023267~hmac=155458bb7a6b943a1ff8695d37cd46a6ab06e29a972940210744d43ead8cdf19&w=996"
+                    alt="Red Shirt"
+                    width="200"
+                    height="200"
+                    >
+                    <p>Red Shirt</p>    
+                </div>
+
+                <div class="product-box">
+                    <img src=
+                    "https://img.freepik.com/free-photo/young-confident-man-red-shirt-with-optical-glasses-bites-lip-looks-isolated-orange-wall_141793-35245.jpg?t=st=1742019022~exp=1742022622~hmac=3debedcd80ee362e970a4be9e54ba8e499785cbc7fbe24232dd3e848b83bf22a&w=740"
+                    alt="Red Shirt"
+                    width="200"
+                    height="200"
+                    >
+                    <p>Red Shirt</p>    
+                </div>
+
+                <div class="product-box">
+                    <img src=
+                    "https://img.freepik.com/free-photo/front-view-young-male-courier-green-shirt-green-cap-smiling-pointing-his-finger-yellow-background-job-delivering-service-color_140725-21611.jpg?t=st=1742019667~exp=1742023267~hmac=155458bb7a6b943a1ff8695d37cd46a6ab06e29a972940210744d43ead8cdf19&w=996"
+                    alt="Red Shirt"
+                    width="200"
+                    height="200"
+                    >
+                    <p>Red Shirt</p>    
+                </div>
+
+                <div class="product-box">
+                    <img src=
+                    "https://img.freepik.com/free-photo/young-confident-man-red-shirt-with-optical-glasses-bites-lip-looks-isolated-orange-wall_141793-35245.jpg?t=st=1742019022~exp=1742022622~hmac=3debedcd80ee362e970a4be9e54ba8e499785cbc7fbe24232dd3e848b83bf22a&w=740"
+                    alt="Red Shirt"
+                    width="200"
+                    height="200"
+                    >
+                    <p>Red Shirt</p>    
+                </div>
+
+                <div class="product-box">
+                    <img src=
+                    "https://img.freepik.com/free-photo/front-view-young-male-courier-green-shirt-green-cap-smiling-pointing-his-finger-yellow-background-job-delivering-service-color_140725-21611.jpg?t=st=1742019667~exp=1742023267~hmac=155458bb7a6b943a1ff8695d37cd46a6ab06e29a972940210744d43ead8cdf19&w=996"
+                    alt="Red Shirt"
+                    width="200"
+                    height="200"
+                    >
+                    <p>Red Shirt</p>    
+                </div>
+
+                <div class="product-box">
+                    <img src=
+                    "https://img.freepik.com/free-photo/young-confident-man-red-shirt-with-optical-glasses-bites-lip-looks-isolated-orange-wall_141793-35245.jpg?t=st=1742019022~exp=1742022622~hmac=3debedcd80ee362e970a4be9e54ba8e499785cbc7fbe24232dd3e848b83bf22a&w=740"
+                    alt="Red Shirt"
+                    width="200"
+                    height="200"
+                    >
+                    <p>Red Shirt</p>    
+                </div>
+
+
+
+            </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer-container">
+            <div class="footer-box-1">
+                <h2 class="headingText">Rostra</h2>
+                <p>
+                    Transform your living space with Rostra's collection of stylish and functional home goods. 
+                    Discover everything from elegant decor and cozy textiles to practical kitchenware and organization solutions.
+                </p>
+                <div class="footer-icon-container">
+                    <i class="fa-brands fa-instagram"></i>
+                    <i class="fa-brands fa-twitter"></i>
+                    <i class="fa-brands fa-facebook"></i>
+                </div>
+            </div>
+        </div>
+        <p>© 2025 Rostra</p>
+    </footer>
+
+    <script src="index.js"></script>
+</body>
+</html>
